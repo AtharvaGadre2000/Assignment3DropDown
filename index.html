@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaza De COMIDA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+  </head>
+
+<body>
+
+
+  <div class="container">
+    <h1>Plaza De COMIDA</h1>
+    <h2>What would you like to eat</h2>
+    <img src="logo.png">
+   <div class="menu-1">
+     <label>Place Order :</label>&nbsp;
+    <select id="menu" onchange="display()"> 
+      <option>Select Eg Biryani</option>
+    </select>
+   </div>
+
+   <div class="order-details">
+     <h3>
+       Details:
+     </h3>
+     <div class="details">
+      <b> DISH ID: </b>           <span id="ID"></span><br><br>
+      <b> DISH Name :</b>         <span id="name"></span><br><br>
+      <b> About the DISH: </b>    <span id="About"></span><br><br>
+      <b> Price for small in $ :</b>    <span id="scost"></span><br><br> 
+      <b> Price for large in $ :</b>    <span id="lcost"></span><br><br>
+     </div>
+   </div>
+
+  </div>
+  &nbsp;&nbsp;&nbsp;
+  <footer>Plaza De COMIDA<span>&#169;</span>  2020</footer>
+</body>
+<script src="home.js"></script>
+ 
+
+</html>
